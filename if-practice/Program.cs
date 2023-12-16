@@ -22,17 +22,38 @@
 
 
 // ========================Solution: 2nd Problem=====================//
-float age;
-bool hasPreExistingCondition;
+// float age;
+// bool hasPreExistingCondition;
 
-Console.Write("Please enter your age: ");
-age = int.Parse(Console.ReadLine());
+// Console.Write("Please enter your age: ");
+// age = int.Parse(Console.ReadLine());
 
-Console.Write("Have you pre-existing heart conditions (0 for No and 1 for Yes): ");
-hasPreExistingCondition = int.Parse(Console.ReadLine()) == 0 ? false : true;
+// Console.Write("Have you pre-existing heart conditions (0 for No and 1 for Yes): ");
+// hasPreExistingCondition = int.Parse(Console.ReadLine()) == 0 ? false : true;
 
 
-if (age > 65 && !hasPreExistingCondition)
+// if (age > 65 && !hasPreExistingCondition)
+// {
+//     Console.WriteLine("Congradtions! You are eligible for the program");
+// }
+
+
+
+
+
+
+// ========================Solution: 3rd Problem=====================//
+float gradesPercent;
+int extracurricularActivities;
+
+Console.Write("Please enter your grades precent: ");
+gradesPercent = int.Parse(Console.ReadLine());
+
+Console.Write("In how many extracurricular activties, you have participated: ");
+extracurricularActivities = int.Parse(Console.ReadLine());
+
+
+if (gradesPercent >= 90 && extracurricularActivities >= 2)
 {
-    Console.WriteLine("Congradtions! You are eligible for the program");
+    Console.WriteLine("Congradtions! You are eligible for the scholarship");
 }
