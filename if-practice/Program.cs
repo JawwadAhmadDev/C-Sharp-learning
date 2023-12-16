@@ -1,19 +1,38 @@
-﻿// Discount Eligibility Check Based on Purchase Amount and Membership Status
-// Write a program that determines if a customer is eligible for a discount. 
-// If the customer's purchase amount exceeds $100 and they are a premium member, then they are eligible for a discount. Print "Eligible for discount" if these conditions are met.
+﻿// ========================Solution: 1st Problem=====================//
+// double purchases;
+// bool isPremiumMember;
 
-// Program Starts
-double purchases;
-bool isPremiumMember;
+// Console.Write("Please enter your purchases amount: ");
+// purchases = int.Parse(Console.ReadLine());
 
-Console.Write("Please enter your purchases amount: ");
-purchases = int.Parse(Console.ReadLine());
-
-Console.Write("Are you a premium member (0 for non-premium and 1 for premium): ");
-isPremiumMember = int.Parse(Console.ReadLine()) == 0 ? false : true;
+// Console.Write("Are you a premium member (0 for non-premium and 1 for premium): ");
+// isPremiumMember = int.Parse(Console.ReadLine()) == 0 ? false : true;
 
 
-if (purchases >= 100 && isPremiumMember)
+// if (purchases >= 100 && isPremiumMember)
+// {
+//     Console.WriteLine("Congradtions! You are eligible for discount");
+// }
+
+
+
+
+
+
+
+
+// ========================Solution: 2nd Problem=====================//
+float age;
+bool hasPreExistingCondition;
+
+Console.Write("Please enter your age: ");
+age = int.Parse(Console.ReadLine());
+
+Console.Write("Have you pre-existing heart conditions (0 for No and 1 for Yes): ");
+hasPreExistingCondition = int.Parse(Console.ReadLine()) == 0 ? false : true;
+
+
+if (age > 65 && !hasPreExistingCondition)
 {
-    Console.WriteLine("Congradtions! You are eligible for discount");
+    Console.WriteLine("Congradtions! You are eligible for the program");
 }
