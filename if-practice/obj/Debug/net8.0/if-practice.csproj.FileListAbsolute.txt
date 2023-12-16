@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/bin/Debug/net8.0/if-practice
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/bin/Debug/net8.0/if-practice.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/bin/Debug/net8.0/if-practice.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/bin/Debug/net8.0/if-practice.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/bin/Debug/net8.0/if-practice.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/refint/if-practice.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/if-practice.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-practice/obj/Debug/net8.0/ref/if-practice.dll
