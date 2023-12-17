@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/bin/Debug/net8.0/if-else-if
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/bin/Debug/net8.0/if-else-if.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/bin/Debug/net8.0/if-else-if.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/bin/Debug/net8.0/if-else-if.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/bin/Debug/net8.0/if-else-if.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/refint/if-else-if.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/if-else-if.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-if/obj/Debug/net8.0/ref/if-else-if.dll
