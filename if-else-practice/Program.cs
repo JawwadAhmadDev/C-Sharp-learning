@@ -35,25 +35,60 @@
 
 // ===================== Solution: 2nd Problem ======================//
 
-float creditScore, annualIncome, yearsPassedAtCurrentJob;
+// float creditScore, annualIncome, yearsPassedAtCurrentJob;
+
+// // taking inputs from user
+// Console.Write("Kindly Enter your credit score: ");
+// creditScore = float.Parse(Console.ReadLine());
+
+// Console.Write("Kindly enter your annual income in $: ");
+// annualIncome = float.Parse(Console.ReadLine());
+
+// Console.Write("How many years passed at your current job? ");
+// yearsPassedAtCurrentJob = float.Parse(Console.ReadLine());
+
+
+// // applying conditions
+// if (creditScore > 700 && annualIncome > 40_000 && yearsPassedAtCurrentJob > 1)
+// {
+//     Console.WriteLine("Loan Approved");
+// }
+// else
+// {
+//     Console.WriteLine("Loan Denied");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// ===================== Solution: 3rd Problem ======================//
+
+int units;
+double bill, rate;
 
 // taking inputs from user
-Console.Write("Kindly Enter your credit score: ");
-creditScore = float.Parse(Console.ReadLine());
-
-Console.Write("Kindly enter your annual income in $: ");
-annualIncome = float.Parse(Console.ReadLine());
-
-Console.Write("How many years passed at your current job? ");
-yearsPassedAtCurrentJob = float.Parse(Console.ReadLine());
-
+Console.Write("Kindly Enter your energy usage in units (kWh): ");
+units = int.Parse(Console.ReadLine());
 
 // applying conditions
-if (creditScore > 700 && annualIncome > 40_000 && yearsPassedAtCurrentJob > 1)
+if (units < 500)
 {
-    Console.WriteLine("Loan Approved");
+    rate = 0.15;
+    bill = units * rate;
 }
 else
 {
-    Console.WriteLine("Loan Denied");
+    rate = 0.18;
+    bill = units * rate;
 }
+
+
+Console.WriteLine($"\nRate per unit: {rate}\nYour current bill is {bill}");
