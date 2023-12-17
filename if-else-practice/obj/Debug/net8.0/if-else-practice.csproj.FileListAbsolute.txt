@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/bin/Debug/net8.0/if-else-practice
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/bin/Debug/net8.0/if-else-practice.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/bin/Debug/net8.0/if-else-practice.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/bin/Debug/net8.0/if-else-practice.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/bin/Debug/net8.0/if-else-practice.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/refint/if-else-practice.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/if-else-practice.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/if-else-practice/obj/Debug/net8.0/ref/if-else-practice.dll
