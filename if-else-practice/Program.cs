@@ -1,4 +1,5 @@
 ﻿// ===================== Solution: 1st Problem ======================//
+// Flight Boarding Eligibility Based on Multiple Conditions
 
 // bool hasBoardingPass, securityPassed;
 // double luggageWeight;
@@ -34,6 +35,7 @@
 
 
 // ===================== Solution: 2nd Problem ======================//
+// Advanced Loan Approval System Based on Credit Score, Income, and Employment Status
 
 // float creditScore, annualIncome, yearsPassedAtCurrentJob;
 
@@ -70,25 +72,76 @@
 
 
 // ===================== Solution: 3rd Problem ======================//
+// Energy Bill Calculation Based on Usage and Peak Hours
+// int units;
+// double bill, rate;
 
-int units;
-double bill, rate;
+// // taking inputs from user
+// Console.Write("Kindly Enter your energy usage in units (kWh): ");
+// units = int.Parse(Console.ReadLine());
 
-// taking inputs from user
-Console.Write("Kindly Enter your energy usage in units (kWh): ");
-units = int.Parse(Console.ReadLine());
+// // applying conditions
+// if (units < 500)
+// {
+//     rate = 0.15;
+//     bill = units * rate;
+// }
+// else
+// {
+//     rate = 0.18;
+//     bill = units * rate;
+// }
 
-// applying conditions
-if (units < 500)
+
+// Console.WriteLine($"\nRate per unit: {rate}\nYour current bill is {bill}");
+
+
+
+
+
+
+
+
+
+
+
+
+// ===================== Solution: 3rd Problem ======================//
+// Customized Diet Plan Based on Age, Weight, and Activity Level
+
+using System;
+namespace If_Else_practice
 {
-    rate = 0.15;
-    bill = units * rate;
-}
-else
-{
-    rate = 0.18;
-    bill = units * rate;
-}
+    class DietPlan
+    {
+        enum ActivityLevel
+        {
+            Low,
+            High
+        };
+
+        static void Main(string[] args)
+        {
+            // variable declaration.
+            float age, weight;
+
+            // taking input from user
+            Console.Write("Please enter your age: ");
+            age = float.Parse(Console.ReadLine());
+
+            Console.Write("Please enter your activity level(0 for low / 1 for high): ");
+            ActivityLevel activityLevel = int.Parse(Console.ReadLine()) == 0 ? ActivityLevel.Low : ActivityLevel.High;
 
 
-Console.WriteLine($"\nRate per unit: {rate}\nYour current bill is {bill}");
+            // applying conditions
+            if (age < 30 && activityLevel == ActivityLevel.High)
+            {
+                Console.WriteLine("You are suggested a high protein diet");
+            }
+            else
+            {
+                Console.WriteLine("You are suggested a low carb diet");
+            }
+        }
+    }
+}
