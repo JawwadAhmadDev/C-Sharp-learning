@@ -10,7 +10,7 @@ Write a program to decide if an individual is eligible for a loan. The person is
 
 ### Energy Bill Calculation Based on Usage and Peak Hours
 
-Develop a program that calculates an energy bill. If the energy usage is below 500 kWh, apply a standard rate. If the usage is above 500 kWh and most of the usage occurs during peak hours, apply a higher rate. Print the total bill amount.
+Develop a program that calculates an energy bill. If the energy usage is below 500 kWh, apply a standard rate. If the usage is above 500 kWh, apply a higher rate. Print the total bill amount.
 
 ### Customized Diet Plan Based on Age, Weight, and Activity Level
 
