@@ -63,19 +63,41 @@
 
 
 // ========================Solution: 4th Problem=====================//
-float temprature, humidity, windSpeed;
+// float temprature, humidity, windSpeed;
 
-Console.Write("Please enter temprature in Fahrenheit: ");
-temprature = float.Parse(Console.ReadLine());
+// Console.Write("Please enter temprature in Fahrenheit: ");
+// temprature = float.Parse(Console.ReadLine());
 
-Console.Write("Please enter humidity in percent: ");
-humidity = float.Parse(Console.ReadLine());
+// Console.Write("Please enter humidity in percent: ");
+// humidity = float.Parse(Console.ReadLine());
 
-Console.Write("Please enter wind speed: ");
-windSpeed = float.Parse(Console.ReadLine());
+// Console.Write("Please enter wind speed: ");
+// windSpeed = float.Parse(Console.ReadLine());
 
 
-if (temprature > 95 && humidity > 80 && windSpeed > 20)
+// if (temprature > 95 && humidity > 80 && windSpeed > 20)
+// {
+//     Console.WriteLine("=====Severe weather warning==========");
+// }
+
+
+
+
+
+
+
+
+
+// ======================== Solution: 5th Problem=====================//
+string password;
+
+Console.Write("Please Enter a password: ");
+password = Console.ReadLine();
+
+if (password.Length >= 8 &&
+    password.Any(char.IsUpper) &&
+    password.Any(char.IsLower) &&
+    password.Any(char.IsDigit))
 {
-    Console.WriteLine("=====Severe weather warning==========");
+    Console.WriteLine("Password is strong");
 }
