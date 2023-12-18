@@ -62,7 +62,7 @@
 
 
 
-// ================= Solution: 2n Problem ================== //
+// ================= Solution: 2nd Problem ================== //
 // Customized Fitness Program Based on Age, Gender, and Fitness Level
 
 // using System;
@@ -137,34 +137,34 @@
 // ================= Solution: 3rd Problem ================== //
 // Advanced Academic Track Placement Based on Test Scores in Multiple Subjects
 
-int mathScore;
-int scienceScore;
-int languageArtsScore;
+// int mathScore;
+// int scienceScore;
+// int languageArtsScore;
 
 
-Console.Write("Please enter your maths scores: ");
-mathScore = int.Parse(Console.ReadLine());
+// Console.Write("Please enter your maths scores: ");
+// mathScore = int.Parse(Console.ReadLine());
 
-Console.Write("Please enter your science marks: ");
-scienceScore = int.Parse(Console.ReadLine());
+// Console.Write("Please enter your science marks: ");
+// scienceScore = int.Parse(Console.ReadLine());
 
-Console.Write("Please enter arts score: ");
-languageArtsScore = int.Parse(Console.ReadLine());
+// Console.Write("Please enter arts score: ");
+// languageArtsScore = int.Parse(Console.ReadLine());
 
 
 
-if (mathScore > 80 && scienceScore > 80 && languageArtsScore > 80)
-{
-    Console.WriteLine("Assigned to honors track");
-}
-else if (mathScore > 70 && scienceScore > 70)
-{
-    Console.WriteLine("Assigned to advanced track");
-}
-else
-{
-    Console.WriteLine("Assigned to basic track");
-}
+// if (mathScore > 80 && scienceScore > 80 && languageArtsScore > 80)
+// {
+//     Console.WriteLine("Assigned to honors track");
+// }
+// else if (mathScore > 70 && scienceScore > 70)
+// {
+//     Console.WriteLine("Assigned to advanced track");
+// }
+// else
+// {
+//     Console.WriteLine("Assigned to basic track");
+// }
 
 
 
@@ -176,38 +176,38 @@ else
 
 // ================= Solution: 4th Problem ================== //
 // CDynamic Pricing Model for an Event Based on Date, Demand, and Member Status
-int daysBeforeEvent;
-int currentDemandLevel; // scale of 1-10
-bool isMember;
-double price;
+// int daysBeforeEvent;
+// int currentDemandLevel; // scale of 1-10
+// bool isMember;
+// double price;
 
-Console.Write("How many days before you want ticket: ");
-daysBeforeEvent = int.Parse(Console.ReadLine());
+// Console.Write("How many days before you want ticket: ");
+// daysBeforeEvent = int.Parse(Console.ReadLine());
 
-Console.Write("What is current demand level: ");
-currentDemandLevel = int.Parse(Console.ReadLine());
+// Console.Write("What is current demand level: ");
+// currentDemandLevel = int.Parse(Console.ReadLine());
 
-Console.Write("Are you a member of the organization(0 for No / 1 for Yes): ");
-isMember = int.Parse(Console.ReadLine()) == 0 ? false : true;
+// Console.Write("Are you a member of the organization(0 for No / 1 for Yes): ");
+// isMember = int.Parse(Console.ReadLine()) == 0 ? false : true;
 
 
-if (daysBeforeEvent > 30)
-{
-    price = 50; // early bird price
-}
-else if (currentDemandLevel > 7)
-{
-    price = 80; // high demand price
-}
-else
-{
-    price = 65; // regular price
-}
-if (isMember)
-{
-    price *= 0.9; // 10% discount for members
-}
-Console.WriteLine($"Ticket price: ${price}");
+// if (daysBeforeEvent > 30)
+// {
+//     price = 50; // early bird price
+// }
+// else if (currentDemandLevel > 7)
+// {
+//     price = 80; // high demand price
+// }
+// else
+// {
+//     price = 65; // regular price
+// }
+// if (isMember)
+// {
+//     price *= 0.9; // 10% discount for members
+// }
+// Console.WriteLine($"Ticket price: ${price}");
 
 
 
