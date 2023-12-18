@@ -109,42 +109,42 @@
 // ===================== Solution: 4th Problem ======================//
 // Customized Diet Plan Based on Age, Weight, and Activity Level
 
-// using System;
-// namespace If_Else_practice
-// {
-//     class DietPlan
-//     {
-//         enum ActivityLevel
-//         {
-//             Low,
-//             High
-//         };
+using System;
+namespace If_Else_practice
+{
+    class DietPlan
+    {
+        enum ActivityLevel
+        {
+            Low,
+            High
+        };
 
-//         static void Main(string[] args)
-//         {
-//             // variable declaration.
-//             float age, weight;
+        static void Main(string[] args)
+        {
+            // variable declaration.
+            float age, weight;
 
-//             // taking input from user
-//             Console.Write("Please enter your age: ");
-//             age = float.Parse(Console.ReadLine());
+            // taking input from user
+            Console.Write("Please enter your age: ");
+            age = float.Parse(Console.ReadLine());
 
-//             Console.Write("Please enter your activity level(0 for low / 1 for high): ");
-//             ActivityLevel activityLevel = int.Parse(Console.ReadLine()) == 0 ? ActivityLevel.Low : ActivityLevel.High;
+            Console.Write("Please enter your activity level(0 for low / 1 for high): ");
+            ActivityLevel activityLevel = int.Parse(Console.ReadLine()) == 0 ? ActivityLevel.Low : ActivityLevel.High;
 
 
-//             // applying conditions
-//             if (age < 30 && activityLevel == ActivityLevel.High)
-//             {
-//                 Console.WriteLine("You are suggested a high protein diet");
-//             }
-//             else
-//             {
-//                 Console.WriteLine("You are suggested a low carb diet");
-//             }
-//         }
-//     }
-// }
+            // applying conditions
+            if (age < 30 && activityLevel == ActivityLevel.High)
+            {
+                Console.WriteLine("You are suggested a high protein diet");
+            }
+            else
+            {
+                Console.WriteLine("You are suggested a low carb diet");
+            }
+        }
+    }
+}
 
 
 
