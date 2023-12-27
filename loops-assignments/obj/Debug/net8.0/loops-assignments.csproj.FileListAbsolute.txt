@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/bin/Debug/net8.0/loops-assignments
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/bin/Debug/net8.0/loops-assignments.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/bin/Debug/net8.0/loops-assignments.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/bin/Debug/net8.0/loops-assignments.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/bin/Debug/net8.0/loops-assignments.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/refint/loops-assignments.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/loops-assignments.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/loops-assignments/obj/Debug/net8.0/ref/loops-assignments.dll

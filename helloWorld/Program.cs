@@ -3,17 +3,21 @@ using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            int age;
-            Console.WriteLine("Please enter your age");
+            string firstName, secondName, fullName;
 
-            age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter your first name");
+            string firstName = Console.ReadLine();
 
-            Console.WriteLine("Entered age: " + age);
-            
+            Console.WriteLine("Please enter your second name");
+            string firstName = Console.ReadLine();
+
+            fullName = firstName + secondName;
+
+            Console.WriteLine("Your full name is " + fullName);
         }
     }
 }
