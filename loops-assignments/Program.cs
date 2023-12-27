@@ -63,43 +63,75 @@
 
 
 
-// ==================== Solution: 2nd Problem ===================== //
+// ==================== Solution: 3rd Problem ===================== //
 // Question Statement: Print Prime Numbers Up to N
 
-int num;
+// int num;
 
+// // taking input from user
+// Console.Write("Please enter a number greater than 2: ");
+// num = int.Parse(Console.ReadLine());
+
+// // starting point will be 2.
+// int i = 2;
+
+
+// Console.WriteLine("Prime numbers upto " + num + " are: ");
+
+// // tranversing from 2 to given number.
+// while (i <= num)
+// {
+//     // finding prime status of each number 
+//     int j = 2;
+//     bool isPrime = true;
+//     while (j <= (i / 2))
+//     {
+//         if (i % j == 0)
+//         {
+//             isPrime = false;
+//             break;
+//         }
+//         j++;
+//     }
+
+//     // printing if i is prime
+//     if (isPrime)
+//     {
+//         Console.Write(i + "\t");
+//     }
+
+//     i++;
+// }
+// Console.WriteLine();
+
+
+
+
+
+
+
+
+
+// ==================== Solution: 4th Problem ===================== //
+// Question Statement: Generate a Fibonacci Sequence Up to N
+
+int limit;
 // taking input from user
-Console.Write("Please enter a number greater than 2: ");
-num = int.Parse(Console.ReadLine());
-
-// starting point will be 2.
-int i = 2;
+Console.Write("Please enter a number: ");
+limit = int.Parse(Console.ReadLine());
 
 
-Console.WriteLine("Prime numbers upto " + num + " are: ");
 
-// tranversing from 2 to given number.
-while (i <= num)
+// printing fabonacci sequence
+Console.WriteLine("Fabonacci sequence upto " + limit + " : ");
+
+int first = 0, second = 1, next = 0;
+while (next <= limit)
 {
-    // finding prime status of each number 
-    int j = 2;
-    bool isPrime = true;
-    while (j <= (i / 2))
-    {
-        if (i % j == 0)
-        {
-            isPrime = false;
-            break;
-        }
-        j++;
-    }
-
-    // printing if i is prime
-    if (isPrime)
-    {
-        Console.Write(i + "\t");
-    }
-
-    i++;
+    Console.Write(next + "\t");
+    first = second;
+    second = next;
+    next = first + second;
 }
+
 Console.WriteLine();
