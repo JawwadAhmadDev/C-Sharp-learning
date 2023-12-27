@@ -29,27 +29,77 @@
 // ==================== Solution: 2nd Problem ===================== //
 // Question Statement: Compute the Greatest Common Divisor (GCD) or Highest Common factor (HCF)
 
-int num1 = 0, num2 = 0, temp = 0;
+// int num1 = 0, num2 = 0, temp = 0;
 
-// taking two numbers
-Console.WriteLine("Please Enter two numbers.");
-num1 = int.Parse(Console.ReadLine());
-num2 = int.Parse(Console.ReadLine());
+// // taking two numbers
+// Console.WriteLine("Please Enter two numbers.");
+// num1 = int.Parse(Console.ReadLine());
+// num2 = int.Parse(Console.ReadLine());
 
-// arranging numbers
-if (num1 < num2)
+// // arranging numbers
+// if (num1 < num2)
+// {
+//     temp = num1;
+//     num1 = num2;
+//     num2 = temp;
+// }
+
+// // finding HCF / GCD
+// while (num2 != 0)
+// {
+//     temp = num2;
+//     num2 = num1 % num2;
+//     num1 = temp;
+// }
+
+// Console.WriteLine("HCF / GCD: " + num1);
+
+
+
+
+
+
+
+
+
+
+// ==================== Solution: 2nd Problem ===================== //
+// Question Statement: Print Prime Numbers Up to N
+
+int num;
+
+// taking input from user
+Console.Write("Please enter a number greater than 2: ");
+num = int.Parse(Console.ReadLine());
+
+// starting point will be 2.
+int i = 2;
+
+
+Console.WriteLine("Prime numbers upto " + num + " are: ");
+
+// tranversing from 2 to given number.
+while (i <= num)
 {
-    temp = num1;
-    num1 = num2;
-    num2 = temp;
-}
+    // finding prime status of each number 
+    int j = 2;
+    bool isPrime = true;
+    while (j <= (i / 2))
+    {
+        if (i % j == 0)
+        {
+            isPrime = false;
+            break;
+        }
+        j++;
+    }
 
-// finding HCF / GCD
-while (num2 != 0)
-{
-    temp = num2;
-    num2 = num1 % num2;
-    num1 = temp;
-}
+    // printing if i is prime
+    if (isPrime)
+    {
+        Console.Write(i + "\t");
+    }
 
-Console.WriteLine("HCF / GCD: " + num1);
+    i++;
+}
+Console.WriteLine();
