@@ -1,24 +1,24 @@
 ﻿// ==================== Solution: 1st Problem ===================== //
 // Question Statement: Find the Smallest Divisor.
 
-// int num, smallestDivisor;
+int num, smallestDivisor;
 
-// Console.Write("Please enter a positive number greater than 1 for which you want to find smallest divisor: ");
-// num = Convert.ToInt32(Console.ReadLine());
-// smallestDivisor = num;
+Console.Write("Please enter a positive number greater than 1 for which you want to find smallest divisor: ");
+num = Convert.ToInt32(Console.ReadLine());
+smallestDivisor = num;
 
-// int i = 2;
-// while (i < num)
-// {
-//     if (num % i == 0)
-//     {
-//         smallestDivisor = i;
-//         break;
-//     }
-//     i++;
-// }
+int i = 2;
+while (i < num)
+{
+    if (num % i == 0)
+    {
+        smallestDivisor = i;
+        break;
+    }
+    i++;
+}
 
-// Console.WriteLine("Smallest Divisor of " + num + " is " + smallestDivisor);
+Console.WriteLine("Smallest Divisor of " + num + " is " + smallestDivisor);
 
 
 
@@ -29,30 +29,30 @@
 // ==================== Solution: 2nd Problem ===================== //
 // Question Statement: Compute the Greatest Common Divisor (GCD) or Highest Common factor (HCF)
 
-// int num1 = 0, num2 = 0, temp = 0;
+int num1 = 0, num2 = 0, temp = 0;
 
-// // taking two numbers
-// Console.WriteLine("Please Enter two numbers.");
-// num1 = int.Parse(Console.ReadLine());
-// num2 = int.Parse(Console.ReadLine());
+// taking two numbers
+Console.WriteLine("Please Enter two numbers.");
+num1 = int.Parse(Console.ReadLine());
+num2 = int.Parse(Console.ReadLine());
 
-// // arranging numbers
-// if (num1 < num2)
-// {
-//     temp = num1;
-//     num1 = num2;
-//     num2 = temp;
-// }
+// arranging numbers
+if (num1 < num2)
+{
+    temp = num1;
+    num1 = num2;
+    num2 = temp;
+}
 
-// // finding HCF / GCD
-// while (num2 != 0)
-// {
-//     temp = num2;
-//     num2 = num1 % num2;
-//     num1 = temp;
-// }
+// finding HCF / GCD
+while (num2 != 0)
+{
+    temp = num2;
+    num2 = num1 % num2;
+    num1 = temp;
+}
 
-// Console.WriteLine("HCF / GCD: " + num1);
+Console.WriteLine("HCF / GCD: " + num1);
 
 
 
@@ -66,43 +66,43 @@
 // ==================== Solution: 3rd Problem ===================== //
 // Question Statement: Print Prime Numbers Up to N
 
-// int num;
+int num;
 
-// // taking input from user
-// Console.Write("Please enter a number greater than 2: ");
-// num = int.Parse(Console.ReadLine());
+// taking input from user
+Console.Write("Please enter a number greater than 2: ");
+num = int.Parse(Console.ReadLine());
 
-// // starting point will be 2.
-// int i = 2;
+// starting point will be 2.
+int i = 2;
 
 
-// Console.WriteLine("Prime numbers upto " + num + " are: ");
+Console.WriteLine("Prime numbers upto " + num + " are: ");
 
-// // tranversing from 2 to given number.
-// while (i <= num)
-// {
-//     // finding prime status of each number 
-//     int j = 2;
-//     bool isPrime = true;
-//     while (j <= (i / 2))
-//     {
-//         if (i % j == 0)
-//         {
-//             isPrime = false;
-//             break;
-//         }
-//         j++;
-//     }
+// tranversing from 2 to given number.
+while (i <= num)
+{
+    // finding prime status of each number 
+    int j = 2;
+    bool isPrime = true;
+    while (j <= (i / 2))
+    {
+        if (i % j == 0)
+        {
+            isPrime = false;
+            break;
+        }
+        j++;
+    }
 
-//     // printing if i is prime
-//     if (isPrime)
-//     {
-//         Console.Write(i + "\t");
-//     }
+    // printing if i is prime
+    if (isPrime)
+    {
+        Console.Write(i + "\t");
+    }
 
-//     i++;
-// }
-// Console.WriteLine();
+    i++;
+}
+Console.WriteLine();
 
 
 
@@ -135,3 +135,18 @@ while (next <= limit)
 }
 
 Console.WriteLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
