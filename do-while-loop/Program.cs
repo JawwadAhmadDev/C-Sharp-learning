@@ -15,7 +15,7 @@ do
 } while (guess != numberToGuess);
 
 Console.WriteLine("Correct! The number was " + numberToGuess);
-*/
+
 
 
 
@@ -34,3 +34,29 @@ do
 } while (inputNumber <= 0);
 
 Console.WriteLine("Valid number: " + inputNumber);
+*/
+
+
+
+
+
+// ======================== 3rd Problem: Solution ========================//
+// Question Statement: Reverse a Number
+
+// take input from user
+Console.WriteLine("Enter a number:");
+int originalNumber = Convert.ToInt32(Console.ReadLine());
+
+int reversedNumber = 0;
+
+// reversing number.
+do
+{
+    reversedNumber = reversedNumber * 10 + originalNumber % 10;
+    originalNumber /= 10; // truncating last digit from the number.
+
+} while (originalNumber > 0);
+
+
+Console.WriteLine("Reversed number: " + reversedNumber);
+
