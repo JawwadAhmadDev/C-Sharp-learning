@@ -58,7 +58,7 @@ do
 
 
 Console.WriteLine("Reversed number: " + reversedNumber);
-*/
+
 
 
 
@@ -92,3 +92,38 @@ do
     continueCalculation = Convert.ToChar(Console.ReadLine());
 
 } while (continueCalculation == 'y');
+*/
+
+
+
+
+
+
+
+
+// ======================== 5th Problem: Solution ========================//
+// Question Statement: Palindrome Number Checker
+
+// take input from the user.
+Console.Write("Enter a number: ");
+int originalNum = Convert.ToInt32(Console.ReadLine());
+
+// calculating reverse of the number
+int num = originalNum;
+int reverse = 0;
+do
+{
+    reverse = reverse * 10 + num % 10;
+    num /= 10;
+} while (num > 0);
+
+// checking palindrom number.
+if (originalNum == reverse)
+{
+    Console.WriteLine(originalNum + " is a palindrome.");
+}
+else
+{
+    Console.WriteLine(originalNum + " is not a palindrome.");
+}
+
