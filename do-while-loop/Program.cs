@@ -1,4 +1,5 @@
-﻿// ======================== 1st Problem: Solution ========================//
+﻿/*
+// ======================== 1st Problem: Solution ========================//
 // Question Statement: Number Guessing Game
 
 // generate random number between 1 and 100.
@@ -14,3 +15,22 @@ do
 } while (guess != numberToGuess);
 
 Console.WriteLine("Correct! The number was " + numberToGuess);
+*/
+
+
+
+
+
+// ======================== 2nd Problem: Solution ========================//
+// Question Statement: Input Validation Loop
+
+int inputNumber;
+
+// repeat loop untill user enter positive number
+do
+{
+    Console.Write("Enter a positive integer: ");
+    inputNumber = Convert.ToInt32(Console.ReadLine());
+} while (inputNumber <= 0);
+
+Console.WriteLine("Valid number: " + inputNumber);
