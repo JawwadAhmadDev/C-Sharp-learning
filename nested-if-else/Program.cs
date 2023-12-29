@@ -66,7 +66,7 @@ else
 {
     Console.WriteLine("The Restaurant doesn't pass the inspection due to hygiene test.");
 }
-*/
+
 
 
 
@@ -106,4 +106,47 @@ if (outdoorPref == "yes")
     {
         Console.WriteLine("We reccommend a ground region for you trip.");
     }
+}
+*/
+
+
+
+
+
+
+
+// ===================== 4th Problem: solution =================== //
+// Problem Statement: Home Loan Eligibility
+
+// taking input from user.
+Console.WriteLine("Do you have a steady job? (yes/no)");
+string steadyJob = Console.ReadLine();
+Console.WriteLine("Have you been in your current job for more than two years? (yes/no)");
+string jobDuration = Console.ReadLine();
+Console.WriteLine("Is your credit score above 700? (yes/no)");
+string creditScore = Console.ReadLine();
+
+
+// check if all crieteria met.
+if (steadyJob == "yes")
+{
+    if (jobDuration == "yes")
+    {
+        if (creditScore == "yes")
+        {
+            Console.WriteLine("You are eligible for the home loan.");
+        }
+        else
+        {
+            Console.WriteLine("Not eligible due to shortage of credit score.");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Not eligible due to less job duration.");
+    }
+}
+else
+{
+    Console.WriteLine("Not eligible due to non availability of job.");
 }
