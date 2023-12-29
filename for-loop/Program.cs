@@ -40,7 +40,7 @@ for (int i = start; i <= end; i++)
     }
 }
 Console.WriteLine("Sum of odd numbers from " + start + " to " + end + " : " + sum);
-*/
+
 
 
 
@@ -64,4 +64,28 @@ int limit = Convert.ToInt32(Console.ReadLine());
 for (int i = 1; i <= limit; i++)
 {
     Console.WriteLine(number + " * " + i + " = " + (number * i));
+}
+*/
+
+
+
+
+
+
+
+
+// ===================== 4th Problem: solution =================== //
+// Problem Statement: Find All Substrings of a String
+
+// taking input from user.
+Console.WriteLine("Enter a string:");
+string str = Console.ReadLine();
+
+// printing each substring.
+for (int i = 0; i < str.Length; i++)
+{
+    for (int j = i; j < str.Length; j++)
+    {
+        Console.WriteLine(str.Substring(i, j - i + 1)); // 1st: starting index, 2nd: length
+    }
 }
