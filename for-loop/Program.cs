@@ -65,7 +65,7 @@ for (int i = 1; i <= limit; i++)
 {
     Console.WriteLine(number + " * " + i + " = " + (number * i));
 }
-*/
+
 
 
 
@@ -88,4 +88,56 @@ for (int i = 0; i < str.Length; i++)
     {
         Console.WriteLine(str.Substring(i, j - i + 1)); // 1st: starting index, 2nd: length
     }
+}
+*/
+
+
+
+
+
+
+// ===================== 5th Problem: solution =================== //
+// Problem Statement: Count the Frequency of Each Element in an Array
+
+
+// taking size of the array from user.
+Console.WriteLine("Enter the size of the array:");
+int size = Convert.ToInt32(Console.ReadLine());
+
+// instantiated array with specified size.
+int[] array = new int[size];
+// Array to keep track of visited elements
+bool[] visited = new bool[array.Length];
+
+
+// taking elements of the array from user.
+Console.WriteLine("Enter the elements of the array:");
+for (int i = 0; i < size; i++)
+{
+    array[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+
+// Iterate through the array
+for (int i = 0; i < array.Length; i++)
+{
+    // Skip this element if it's already been counted
+    if (visited[i])
+    {
+        continue;
+    }
+
+    int count = 1;
+
+    // Count how many times the current element appears
+    for (int j = i + 1; j < array.Length; j++)
+    {
+        if (array[i] == array[j])
+        {
+            visited[j] = true;
+            count++;
+        }
+    }
+
+    Console.WriteLine($"Element {array[i]}: Frequency {count}");
 }
