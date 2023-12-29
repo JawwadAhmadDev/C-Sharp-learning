@@ -15,7 +15,7 @@ for (int i = 1; i <= rows; i++)
     }
     Console.WriteLine();
 }
-*/
+
 
 
 
@@ -40,3 +40,28 @@ for (int i = start; i <= end; i++)
     }
 }
 Console.WriteLine("Sum of odd numbers from " + start + " to " + end + " : " + sum);
+*/
+
+
+
+
+
+
+
+
+
+
+// ===================== 3rd Problem: solution =================== //
+// Problem Statement: Display the Multiplication Table Up to X
+
+// taking input from user.
+Console.Write("Enter a number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the limit: ");
+int limit = Convert.ToInt32(Console.ReadLine());
+
+// printing table of number upto limit
+for (int i = 1; i <= limit; i++)
+{
+    Console.WriteLine(number + " * " + i + " = " + (number * i));
+}

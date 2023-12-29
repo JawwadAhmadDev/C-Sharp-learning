@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("for-loop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fd4e9ee6a4f6a6684925afd1f3779ce653d509c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8555b38ecc005c9bd73ab3e5ed906124b86fdd16")]
 [assembly: System.Reflection.AssemblyProductAttribute("for-loop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("for-loop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
