@@ -1,4 +1,4 @@
-﻿
+﻿/*
 // ===================== 1st Problem: solution =================== //
 // Problem Statement: Print a Pattern of Asterisks
 
@@ -15,4 +15,28 @@ for (int i = 1; i <= rows; i++)
     }
     Console.WriteLine();
 }
+*/
 
+
+
+
+// ===================== 2nd Problem: solution =================== //
+// Problem Statement: Calculate the Sum of Odd Numbers in a Range
+
+// taking input from user
+Console.Write("Enter two numbers: ");
+int start = Convert.ToInt32(Console.ReadLine());
+int end = Convert.ToInt32(Console.ReadLine());
+
+int sum = 0;
+
+// calculating sum using for loop
+for (int i = start; i <= end; i++)
+{
+    // check if the number is odd. if odd then add, skip otherwise.
+    if (i % 2 != 0)
+    {
+        sum += i;
+    }
+}
+Console.WriteLine("Sum of odd numbers from " + start + " to " + end + " : " + sum);
