@@ -1,4 +1,5 @@
-﻿// ==================== Solution: 1st Problem ===================== //
+﻿/*
+// ==================== Solution: 1st Problem ===================== //
 // Question Statement: Find the Smallest Divisor.
 
 int num, smallestDivisor;
@@ -135,6 +136,41 @@ while (next <= limit)
 }
 
 Console.WriteLine();
+*/
+
+
+
+
+
+
+
+
+// ==================== Solution: 5th Problem ===================== //
+// Question Statement: Count the Number of Vowels in a String
+
+// take input from user
+Console.Write("Enter a string:");
+string inputString = Console.ReadLine().ToLower();
+
+int count = 0, index = 0;
+while (index < inputString.Length)
+{
+    char currentIndexValue = inputString[index];
+    if (
+        currentIndexValue == 'a' ||
+        currentIndexValue == 'e' ||
+        currentIndexValue == 'i' ||
+        currentIndexValue == 'o' ||
+        currentIndexValue == 'u'
+    )
+    {
+        // count the vowels
+        count++;
+    }
+    index++; // increment loop variable
+}
+Console.WriteLine("Number of vowels: " + count);
+
 
 
 

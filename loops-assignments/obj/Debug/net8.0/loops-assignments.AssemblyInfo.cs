@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("loops-assignments")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac894a650e3a3adb9499c93acd77cb85540daa6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e3df1f78187ecb80f58ae7ce2abf0443cfab19a")]
 [assembly: System.Reflection.AssemblyProductAttribute("loops-assignments")]
 [assembly: System.Reflection.AssemblyTitleAttribute("loops-assignments")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
