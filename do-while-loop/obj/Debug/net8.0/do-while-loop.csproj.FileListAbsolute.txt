@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/bin/Debug/net8.0/do-while-loop
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/bin/Debug/net8.0/do-while-loop.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/bin/Debug/net8.0/do-while-loop.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/bin/Debug/net8.0/do-while-loop.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/bin/Debug/net8.0/do-while-loop.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/refint/do-while-loop.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/do-while-loop.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/do-while-loop/obj/Debug/net8.0/ref/do-while-loop.dll
