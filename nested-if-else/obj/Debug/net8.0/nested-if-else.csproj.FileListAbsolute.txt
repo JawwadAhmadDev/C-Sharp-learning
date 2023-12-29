@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/bin/Debug/net8.0/nested-if-else
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/bin/Debug/net8.0/nested-if-else.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/bin/Debug/net8.0/nested-if-else.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/bin/Debug/net8.0/nested-if-else.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/bin/Debug/net8.0/nested-if-else.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/refint/nested-if-else.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/nested-if-else.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/nested-if-else/obj/Debug/net8.0/ref/nested-if-else.dll
