@@ -24,7 +24,7 @@ else
 {
     Console.WriteLine("You are not eligible due to less gpa.");
 }
-*/
+
 
 
 
@@ -65,4 +65,45 @@ if (hygieneTest == "yes")
 else
 {
     Console.WriteLine("The Restaurant doesn't pass the inspection due to hygiene test.");
+}
+*/
+
+
+
+
+
+
+
+
+// ===================== 3rd Problem: solution =================== //
+// Problem Statement: Customized Travel Recommendations
+
+
+// taking input from the user.
+Console.Write("Do you prefer outdoor activities? (yes/no): ");
+string outdoorPref = Console.ReadLine();
+Console.Write("Do you like hiking? (yes/no): ");
+string hikingPref = Console.ReadLine();
+Console.Write("Do you prefer cold weather? (yes/no): ");
+string coldWeatherPref = Console.ReadLine();
+
+
+// printing statement accoridng to the conditions met.
+if (outdoorPref == "yes")
+{
+    if (hikingPref == "yes")
+    {
+        if (coldWeatherPref == "yes")
+        {
+            Console.WriteLine("We recommend a mountainous region with a colder climate for your trip.");
+        }
+        else
+        {
+            Console.WriteLine("We recommend a mountainous region for your trip.");
+        }
+    }
+    else
+    {
+        Console.WriteLine("We reccommend a ground region for you trip.");
+    }
 }
