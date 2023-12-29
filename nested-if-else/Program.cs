@@ -107,7 +107,7 @@ if (outdoorPref == "yes")
         Console.WriteLine("We reccommend a ground region for you trip.");
     }
 }
-*/
+
 
 
 
@@ -119,11 +119,11 @@ if (outdoorPref == "yes")
 // Problem Statement: Home Loan Eligibility
 
 // taking input from user.
-Console.WriteLine("Do you have a steady job? (yes/no)");
+Console.Write("Do you have a steady job? (yes/no): ");
 string steadyJob = Console.ReadLine();
-Console.WriteLine("Have you been in your current job for more than two years? (yes/no)");
+Console.Write("Have you been in your current job for more than two years? (yes/no): ");
 string jobDuration = Console.ReadLine();
-Console.WriteLine("Is your credit score above 700? (yes/no)");
+Console.Write("Is your credit score above 700? (yes/no): ");
 string creditScore = Console.ReadLine();
 
 
@@ -150,3 +150,44 @@ else
 {
     Console.WriteLine("Not eligible due to non availability of job.");
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+// ===================== 5th Problem: solution =================== //
+// Problem Statement: Personalized Online Shopping Experience
+
+
+// taking input from user.
+Console.Write("Are you browsing in the electronics section? (yes/no): ");
+string browsingElectronics = Console.ReadLine();
+Console.Write("Do you spend more than 5 minutes on smartphone products? (yes/no): ");
+string timeOnSmartphones = Console.ReadLine();
+Console.Write("Do you frequently view a particular brand? (yes/no): ");
+string brandPreference = Console.ReadLine();
+
+
+
+if (browsingElectronics == "yes")
+{
+    if (timeOnSmartphones == "yes")
+    {
+        if (brandPreference == "yes")
+        {
+            Console.WriteLine("Displaying special offers on your preferred brand of smartphones.");
+        }
+        else
+        {
+            Console.WriteLine("Displaying special offers on smartphones.");
+        }
+    }
+}
+
