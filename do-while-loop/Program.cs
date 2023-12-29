@@ -34,7 +34,6 @@ do
 } while (inputNumber <= 0);
 
 Console.WriteLine("Valid number: " + inputNumber);
-*/
 
 
 
@@ -59,4 +58,37 @@ do
 
 
 Console.WriteLine("Reversed number: " + reversedNumber);
+*/
 
+
+
+
+
+
+// ======================== 4th Problem: Solution ========================//
+// Question Statement: Compute Compound Interest
+
+char continueCalculation;
+
+// repeat loop until user want to enter value
+do
+{
+    // take inputs from user
+    Console.Write("Enter principal: ");
+    double principal = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Enter rate: ");
+    double rate = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Enter time (in years): ");
+    int time = Convert.ToInt32(Console.ReadLine());
+
+    // calculating interest
+    double amount = principal * Math.Pow(1 + rate / 100, time);
+
+    // printing results
+    Console.WriteLine("Compound interest: " + amount);
+
+    // take input from user to continue or exit
+    Console.WriteLine("Do another calculation? (y/n)");
+    continueCalculation = Convert.ToChar(Console.ReadLine());
+
+} while (continueCalculation == 'y');
