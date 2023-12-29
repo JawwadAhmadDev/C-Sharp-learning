@@ -1,4 +1,4 @@
-﻿
+﻿/*
 // ===================== 1st Problem: solution =================== //
 // Problem Statement: Academic Eligibility for Scholarship
 
@@ -23,4 +23,46 @@ if (gpa >= 3.5)
 else
 {
     Console.WriteLine("You are not eligible due to less gpa.");
+}
+*/
+
+
+
+
+
+
+
+// ===================== 2nd Problem: solution =================== //
+// Problem Statement: Restaurant Health and Safety Inspection
+
+// taking inputs from user.
+Console.Write("Did the restaurant pass the basic hygiene test? (yes/no): ");
+string hygieneTest = Console.ReadLine();
+Console.Write("Is the kitchen equipment up to standard? (yes/no): ");
+string equipmentStandard = Console.ReadLine();
+Console.Write("Do staff have valid health certificates? (yes/no): ");
+string staffHealth = Console.ReadLine();
+
+// check if all the conditions are met.
+if (hygieneTest == "yes")
+{
+    if (equipmentStandard == "yes")
+    {
+        if (staffHealth == "yes")
+        {
+            Console.WriteLine("The restaurant passes the inspection.");
+        }
+        else
+        {
+            Console.WriteLine("The restaurant doesn't pass the inspection due to incompletion of staffHealth.");
+        }
+    }
+    else
+    {
+        Console.WriteLine("The restaurant doesn't pass the inspection due to not meet equipment standard.");
+    }
+}
+else
+{
+    Console.WriteLine("The Restaurant doesn't pass the inspection due to hygiene test.");
 }
