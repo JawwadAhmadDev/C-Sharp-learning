@@ -3,49 +3,49 @@
 // Design a base class Person with common attributes like name and address. Derive classes such as Student and Teacher from Person, adding specific properties and methods relevant to each.
 
 // Base class
-// public class Person
-// {
-//     public string Name { get; set; }
-//     public string Address { get; set; }
+public class Person
+{
+    public string Name { get; set; }
+    public string Address { get; set; }
 
-//     public Person(string name, string address)
-//     {
-//         Name = name;
-//         Address = address;
-//     }
-// }
+    public Person(string name, string address)
+    {
+        Name = name;
+        Address = address;
+    }
+}
 
-// // Derived class - Student
-// public class Student : Person
-// {
-//     public int GradeLevel { get; set; }
+// Derived class - Student
+public class Student : Person
+{
+    public int GradeLevel { get; set; }
 
-//     public Student(string name, string address, int gradeLevel) : base(name, address)
-//     {
-//         GradeLevel = gradeLevel;
-//     }
+    public Student(string name, string address, int gradeLevel) : base(name, address)
+    {
+        GradeLevel = gradeLevel;
+    }
 
-//     public void Study()
-//     {
-//         Console.WriteLine($"{Name} is studying at grade {GradeLevel}");
-//     }
-// }
+    public void Study()
+    {
+        Console.WriteLine($"{Name} is studying at grade {GradeLevel}");
+    }
+}
 
-// // Derived class - Teacher
-// public class Teacher : Person
-// {
-//     public string Subject { get; set; }
+// Derived class - Teacher
+public class Teacher : Person
+{
+    public string Subject { get; set; }
 
-//     public Teacher(string name, string address, string subject) : base(name, address)
-//     {
-//         Subject = subject;
-//     }
+    public Teacher(string name, string address, string subject) : base(name, address)
+    {
+        Subject = subject;
+    }
 
-//     public void Teach()
-//     {
-//         Console.WriteLine($"{Name} teaches {Subject}");
-//     }
-// }
+    public void Teach()
+    {
+        Console.WriteLine($"{Name} teaches {Subject}");
+    }
+}
 
 
 
@@ -106,33 +106,33 @@ public class Lion : Animal
 // Implement a base class Employee with common fields like employee ID and department. Derive different roles like Manager, Engineer, and SalesRepresentative, adding role-specific methods and properties.
 
 // Base class
-// public class Employee
-// {
-//     public int ID { get; set; }
-//     public string Department { get; set; }
+public class Employee
+{
+    public int ID { get; set; }
+    public string Department { get; set; }
 
-//     public Employee(int id, string department)
-//     {
-//         ID = id;
-//         Department = department;
-//     }
+    public Employee(int id, string department)
+    {
+        ID = id;
+        Department = department;
+    }
 
-//     public void Work()
-//     {
-//         Console.WriteLine($"Employee {ID} is working in {Department}");
-//     }
-// }
+    public void Work()
+    {
+        Console.WriteLine($"Employee {ID} is working in {Department}");
+    }
+}
 
-// // Derived class - Manager
-// public class Manager : Employee
-// {
-//     public Manager(int id, string department) : base(id, department) { }
+// Derived class - Manager
+public class Manager : Employee
+{
+    public Manager(int id, string department) : base(id, department) { }
 
-//     public void Manage()
-//     {
-//         Console.WriteLine($"Manager {ID} manages the {Department} department");
-//     }
-// }
+    public void Manage()
+    {
+        Console.WriteLine($"Manager {ID} manages the {Department} department");
+    }
+}
 
 
 
