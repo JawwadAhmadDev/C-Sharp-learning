@@ -1,5 +1,7 @@
 ﻿// ===================== 1st Problem : Solution ====================== //
 // Banking System (SavingsAccount Implementation):
+// Create an abstract class BankAccount that represents a generic bank account. Define abstract methods for basic operations like deposit(), withdraw(), and calculateInterest(). Implement specific account types such as SavingsAccount and CheckingAccount by extending BankAccount.
+
 public abstract class BankAccount
 {
     public abstract void Deposit(decimal amount);
@@ -54,6 +56,7 @@ public class SavingsAccount : BankAccount
 
 // ===================== 2nd Problem : Solution ====================== //
 // Shapes Drawing Application (Circle Implementation):
+// Define an abstract class Shape with an abstract method draw(). Implement different shape classes like Circle, Rectangle, and Triangle that inherit from Shape and provide specific implementations of the draw() method.
 
 public abstract class Shape
 {
@@ -88,6 +91,7 @@ public class Circle : Shape
 
 // ===================== 3rd Problem : Solution ====================== //
 // Employee Management System (FullTimeEmployee Implementation):
+// Design an abstract class Employee with common fields like name and ID, and an abstract method for calculating salary. Create specific classes like FullTimeEmployee and PartTimeEmployee that inherit from Employee and implement the salary calculation method differently.
 
 public abstract class Employee
 {
@@ -128,6 +132,8 @@ public class FullTimeEmployee : Employee
 
 // ===================== 4th Problem : Solution ====================== //
 // Vehicle Control System:
+// Develop an abstract class Vehicle with abstract methods such as startEngine(), stopEngine(), accelerate(), and brake(). Different vehicle types like Car, Truck, and Motorcycle should inherit from Vehicle and provide specific implementations for these methods.
+
 public abstract class Vehicle
 {
     public abstract void StartEngine();
@@ -176,6 +182,8 @@ public class Car : Vehicle
 
 // ===================== 5th Problem : Solution ====================== //
 // Smart Device Interface (SmartPhone Implementation):
+// Create an abstract class SmartDevice representing a generic smart device with abstract methods like turnOn(), turnOff(), and updateFirmware(). Different specific devices like SmartPhone, SmartWatch, and SmartTV can inherit from this class and implement these methods.
+
 public abstract class SmartDevice
 {
     public abstract void TurnOn();
