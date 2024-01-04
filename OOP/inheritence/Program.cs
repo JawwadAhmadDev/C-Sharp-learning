@@ -178,3 +178,62 @@ public class Bus : TransportMode
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+// ===================== 5th Problem: Solution ==================//
+// Electronics Product Line:
+
+// Base class
+public class ElectronicDevice
+{
+    public virtual void PowerOn()
+    {
+        Console.WriteLine("Device is powered on");
+    }
+
+    public virtual void PowerOff()
+    {
+        Console.WriteLine("Device is powered off");
+    }
+}
+
+// Derived class - Television
+public class Television : ElectronicDevice
+{
+    public int Channel { get; set; }
+
+    public Television()
+    {
+        Channel = 1; // Default channel
+    }
+
+    public void ChangeChannel(int channel)
+    {
+        Channel = channel;
+        Console.WriteLine($"Changed to channel {Channel}");
+    }
+
+    public override void PowerOn()
+    {
+        base.PowerOn();
+        Console.WriteLine("Television is now on");
+    }
+
+    public override void PowerOff()
+    {
+        base.PowerOff();
+        Console.WriteLine("Television is now off");
+    }
+}
+
+
