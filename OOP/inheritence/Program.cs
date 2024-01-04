@@ -100,6 +100,46 @@ public class Lion : Animal
 
 
 
+// ===================== 3rd Problem: Solution ==================//
+// Company Hierarchy:
+
+// Base class
+public class Employee
+{
+    public int ID { get; set; }
+    public string Department { get; set; }
+
+    public Employee(int id, string department)
+    {
+        ID = id;
+        Department = department;
+    }
+
+    public void Work()
+    {
+        Console.WriteLine($"Employee {ID} is working in {Department}");
+    }
+}
+
+// Derived class - Manager
+public class Manager : Employee
+{
+    public Manager(int id, string department) : base(id, department) { }
+
+    public void Manage()
+    {
+        Console.WriteLine($"Manager {ID} manages the {Department} department");
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
