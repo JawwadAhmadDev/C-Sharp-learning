@@ -159,3 +159,47 @@ public class Car : Vehicle
         Console.WriteLine("Car brakes applied");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ===================== 5th Problem : Solution ====================== //
+// Smart Device Interface (SmartPhone Implementation):
+public abstract class SmartDevice
+{
+    public abstract void TurnOn();
+    public abstract void TurnOff();
+    public abstract void UpdateFirmware();
+}
+
+
+
+public class SmartPhone : SmartDevice
+{
+    public override void TurnOn()
+    {
+        Console.WriteLine("SmartPhone is now on");
+    }
+
+    public override void TurnOff()
+    {
+        Console.WriteLine("SmartPhone is now off");
+    }
+
+    public override void UpdateFirmware()
+    {
+        Console.WriteLine("Updating SmartPhone firmware...");
+        // Firmware update logic here
+    }
+}
