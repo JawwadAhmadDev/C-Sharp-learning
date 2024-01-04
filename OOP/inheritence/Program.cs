@@ -104,48 +104,77 @@ public class Lion : Animal
 // Company Hierarchy:
 
 // Base class
-public class Employee
-{
-    public int ID { get; set; }
-    public string Department { get; set; }
+// public class Employee
+// {
+//     public int ID { get; set; }
+//     public string Department { get; set; }
 
-    public Employee(int id, string department)
+//     public Employee(int id, string department)
+//     {
+//         ID = id;
+//         Department = department;
+//     }
+
+//     public void Work()
+//     {
+//         Console.WriteLine($"Employee {ID} is working in {Department}");
+//     }
+// }
+
+// // Derived class - Manager
+// public class Manager : Employee
+// {
+//     public Manager(int id, string department) : base(id, department) { }
+
+//     public void Manage()
+//     {
+//         Console.WriteLine($"Manager {ID} manages the {Department} department");
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ===================== 4th Problem: Solution ==================//
+// Transportation System:
+
+
+// Base class
+public class TransportMode
+{
+    public int MaxSpeed { get; set; }
+    public int Capacity { get; set; }
+
+    public TransportMode(int maxSpeed, int capacity)
     {
-        ID = id;
-        Department = department;
+        MaxSpeed = maxSpeed;
+        Capacity = capacity;
     }
 
-    public void Work()
+    public void Operate()
     {
-        Console.WriteLine($"Employee {ID} is working in {Department}");
+        Console.WriteLine($"Operating at speed: {MaxSpeed} with capacity: {Capacity}");
     }
 }
 
-// Derived class - Manager
-public class Manager : Employee
+// Derived class - Bus
+public class Bus : TransportMode
 {
-    public Manager(int id, string department) : base(id, department) { }
+    public Bus(int maxSpeed, int capacity) : base(maxSpeed, capacity) { }
 
-    public void Manage()
+    public void Drive()
     {
-        Console.WriteLine($"Manager {ID} manages the {Department} department");
+        Console.WriteLine("Bus is driving");
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
