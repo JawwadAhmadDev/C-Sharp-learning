@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/bin/Debug/net8.0/inheritence
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/bin/Debug/net8.0/inheritence.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/bin/Debug/net8.0/inheritence.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/bin/Debug/net8.0/inheritence.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/bin/Debug/net8.0/inheritence.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/refint/inheritence.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/inheritence.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/inheritence/obj/Debug/net8.0/ref/inheritence.dll
