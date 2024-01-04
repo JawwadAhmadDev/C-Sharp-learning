@@ -53,6 +53,49 @@
 
 
 
+// ===================== 2nd Problem: Solution ==================//
+// Zoo Animal Hierarchy:
+
+
+// Base class
+public class Animal
+{
+    public int Age { get; set; }
+    public double Weight { get; set; }
+
+    public Animal(int age, double weight)
+    {
+        Age = age;
+        Weight = weight;
+    }
+
+    public virtual void MakeSound()
+    {
+        Console.WriteLine("Animal makes a sound");
+    }
+}
+
+// Derived class - Lion
+public class Lion : Animal
+{
+    public Lion(int age, double weight) : base(age, weight) { }
+
+    public override void MakeSound()
+    {
+        Console.WriteLine("Lion roars");
+    }
+
+    public void Hunt()
+    {
+        Console.WriteLine("Lion is hunting");
+    }
+}
+
+
+
+
+
+
 
 
 
