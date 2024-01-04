@@ -1,0 +1,15 @@
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/bin/Debug/net8.0/abstraction
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/bin/Debug/net8.0/abstraction.deps.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/bin/Debug/net8.0/abstraction.runtimeconfig.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/bin/Debug/net8.0/abstraction.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/bin/Debug/net8.0/abstraction.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.GeneratedMSBuildEditorConfig.editorconfig
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.AssemblyInfoInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.AssemblyInfo.cs
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.csproj.CoreCompileInputs.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.sourcelink.json
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/refint/abstraction.dll
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.pdb
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/abstraction.genruntimeconfig.cache
+/home/jawwad/Documents/GitHub/university-data/5th-semester/visual-programming/Assignments/OOP/abstraction/obj/Debug/net8.0/ref/abstraction.dll
