@@ -43,3 +43,75 @@ public class SavingsAccount : BankAccount
         return balance * interestRate;
     }
 }
+
+
+
+
+
+
+
+
+
+// ===================== 2nd Problem : Solution ====================== //
+// Shapes Drawing Application (Circle Implementation):
+
+public abstract class Shape
+{
+    public abstract void Draw();
+}
+
+public class Circle : Shape
+{
+    private int radius;
+
+    public Circle(int radius)
+    {
+        this.radius = radius;
+    }
+
+    public override void Draw()
+    {
+        Console.WriteLine($"Drawing a Circle with radius {radius}");
+        // Additional drawing logic here
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// ===================== 3rd Problem : Solution ====================== //
+// Employee Management System (FullTimeEmployee Implementation):
+
+public abstract class Employee
+{
+    public string Name { get; set; }
+    public int ID { get; set; }
+    public abstract decimal CalculateSalary();
+}
+
+
+public class FullTimeEmployee : Employee
+{
+    public decimal Salary { get; set; }
+
+    public FullTimeEmployee(string name, int id, decimal salary)
+    {
+        Name = name;
+        ID = id;
+        Salary = salary;
+    }
+
+    public override decimal CalculateSalary()
+    {
+        // Assuming Salary is annual for a full-time employee
+        return Salary / 12; // Monthly salary
+    }
+}
+
