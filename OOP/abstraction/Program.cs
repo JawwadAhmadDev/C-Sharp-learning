@@ -115,3 +115,47 @@ public class FullTimeEmployee : Employee
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+// ===================== 4th Problem : Solution ====================== //
+// Vehicle Control System:
+public abstract class Vehicle
+{
+    public abstract void StartEngine();
+    public abstract void StopEngine();
+    public abstract void Accelerate();
+    public abstract void Brake();
+}
+
+
+public class Car : Vehicle
+{
+    public override void StartEngine()
+    {
+        Console.WriteLine("Car engine started");
+    }
+
+    public override void StopEngine()
+    {
+        Console.WriteLine("Car engine stopped");
+    }
+
+    public override void Accelerate()
+    {
+        Console.WriteLine("Car is accelerating");
+    }
+
+    public override void Brake()
+    {
+        Console.WriteLine("Car brakes applied");
+    }
+}
